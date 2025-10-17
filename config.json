@@ -1,0 +1,31 @@
+{
+  "application": {
+    "name": "My New Repo Application",
+    "version": "1.0.0",
+    "author": "ayushksinha007",
+    "description": "Sample application with configuration management"
+  },
+  "server": {
+    "port": 3000,
+    "host": "localhost",
+    "protocol": "http"
+  },
+  "database": {
+    "type": "sqlite",
+    "filename": "app.db",
+    "pool": {
+      "min": 2,
+      "max": 10
+    }
+  },
+  "logging": {
+    "level": "info",
+    "format": "json",
+    "output": "console"
+  },
+  "features": {
+    "enableFeatureManager": true,
+    "enableLogging": true,
+    "enableDatabase": false
+  }
+}
